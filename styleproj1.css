@@ -1,0 +1,49 @@
+.box-sizing(@box-model) {
+  -webkit-box-sizing: @box-model; // Safari <= 5
+     -moz-box-sizing: @box-model; // Firefox <= 19
+          box-sizing: @box-model
+}
+.container-fluid{
+	max-width: 100%;
+}
+header {
+	border-bottom: 2px;
+	border-bottom-color: #C0C0C0;
+	border-bottom-style: solid;
+	margin: 20px;
+	color: purple !important;
+}
+#main{
+	border-bottom: 2px;
+	border-bottom-color: #C0C0C0;
+	border-bottom-style: solid;
+	margin: 20px;
+}
+#big-image{
+	max-width: 100%;
+	
+}
+#press_play{
+	color: #C0C0C0 !important;
+	text-align: center !important;
+	font-size: 13vw !important;
+	text-shadow: 0px 0px 94px #D8BFD8 !important;
+	
+}
+#logo{
+	height: 105px;
+	width: 100px;
+}
+#square {
+	
+}
+body{
+	background-color: #FFFAFA !important;
+	color: purple !important;
+
+}
+/* &#9654;*/
+
+
+
+
