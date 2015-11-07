@@ -1,3 +1,8 @@
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+
 .box-sizing(@box-model) {
   -webkit-box-sizing: @box-model; // Safari <= 5
      -moz-box-sizing: @box-model; // Firefox <= 19
@@ -54,14 +59,23 @@ header {
 	
 }
 #logo{
-	height: 105px;
-	width: 105px;
+	height: 108px;
+	width: 108px;
+	border-bottom: solid 3px white;
+	
 }
 #square {
 	object-fit
-	width: 90% !important;
-	height: 320px !important;
+	width: 100% !important;
+	height: auto !important;
+	display: inline!important;
 	
+}
+#square_pic{
+	object-fill: fill !important;
+	width: 100% !important;
+	height: 280px !important;
+	border: solid 5px purple !important;
 }
 body{
 	background-color: #FFB6C1 !important;
