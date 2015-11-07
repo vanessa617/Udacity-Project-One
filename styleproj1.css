@@ -18,27 +18,53 @@ header {
 	border-bottom-color: #C0C0C0;
 	border-bottom-style: solid;
 	margin: 20px;
+	margin-top: 20px;
 }
-#big-image{
-	max-width: 100%;
+#about{
+	font-size: 30px !important;
+	color: #4B0082 !important;
+	text-align: center !important;
+}
+#first_about{
+	font-size: 24px !important;
+	color: #9932CC !important;
+	text-align: center !important;
+	
+}
+#second_about{
+	font-size: 24px !important;
+	color: #BA55D3 !important;
+	text-align: center !important;
+	
+	
+}
+#third_about{
+	font-size: 24px !important;
+	color: #DA70D6!important;
+	text-align: center !important;
+	margin-bottom: 20px !important;
+	
 	
 }
 #press_play{
 	color: #C0C0C0 !important;
 	text-align: center !important;
 	font-size: 13vw !important;
-	text-shadow: 0px 0px 94px #D8BFD8 !important;
+	text-shadow: 0px 0px 94px pink !important;
 	
 }
 #logo{
 	height: 105px;
-	width: 100px;
+	width: 105px;
 }
 #square {
+	object-fit
+	width: 90% !important;
+	height: 320px !important;
 	
 }
 body{
-	background-color: #FFFAFA !important;
+	background-color: #FFB6C1 !important;
 	color: purple !important;
 
 }
